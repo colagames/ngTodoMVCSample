@@ -15,9 +15,15 @@ export class AppComponent {
 
 
   addTodos() {
-    console.log(this.todo);
-    this.todos.push(this.todo);
-    this.todo = '';
+    if (this.todo) {
+      console.log(this.todo);
+      this.todos.push(this.todo);
+      this.todo = '';
+
+    } else {
+      alert('你沒有輸入任何東西，想騙我?');
+
+    }
   }
 
 
