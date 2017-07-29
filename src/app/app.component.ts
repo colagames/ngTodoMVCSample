@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  // title = 'app'; 任務 04 : 將 app.component.ts 中的 title 屬性移到 title.component.ts 檔案中
 }
