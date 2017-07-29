@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +10,9 @@ export class AppComponent {
 
   inputHint = '你有什麼待辦事項嗎?';
 
+
   todos: any[] = []; // 需要給初始值，空陣列
+
   todo = '';
 
 
